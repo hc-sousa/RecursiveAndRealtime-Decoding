@@ -27,4 +27,4 @@ Ficheiros na diretoria A03/extras:
   - realtime.txt - Pseudo Código usado para solucionar a descodificação em tempo real
   
   Ficheiros na diretoria A03/Resultados:
-    - Informações obtidas na descodificação recursiva de 003 até 500
+      - Informações obtidas na descodificação recursiva de 003 até 500
