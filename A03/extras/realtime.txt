@@ -1,0 +1,38 @@
+## PSEUDO-CÓDIGO PARA DESCODIFICAR EM TEMPO REAL ##
+
+inicializar algumas variaveis
+-uma para guardar as possibilidades de codificações atuais
+-guardar o enconded_idx (sera atualizado quando for decidido a 100% uma descodificação)
+-guardar o decoded_idx
+-guardar o numero de possibilidades atuais
+-o numero mais alto de possibilidades obtidas
+
+
+ciclo: 
+	introduzir um bit de cada vez à sequencia de bits
+	verificar se algum dos simbolos pode representar a sequencia atual
+		se sim: adicionar às possibilidades (incrementar nPossibilidades)
+		se não: descartar possibilidade (decrementar nPossibilidades
+repetir
+
+while (decoded_idx < _original_message_size)
+
+	tempMessage -> sequencia de bits a avaliar
+	while (++n <= encoded_idx){
+		tempMessage[n] = _encoded_message_[decoded_idx + n];
+	}
+	
+	tempSymbol -> parte inicial dos bits com o mesmo tamanho que a tempMessage
+      	while (++n <= encoded_idx){
+          tempSymb[n] = _c_->data[j].codeword[n];
+      	}	
+      	
+      	para cada simbolo:
+	      	se o tempSymbol for igual ao tempMessage
+	      	podemos considerar esta descodificação
+	      		nPossibilidades++
+	      		newDecode -> sequencia descodificada
+	      		tempDecodes[k] = newDecode
+	    	verificar se todas as possibilidades são possíveis
+	repetir:
+      	
