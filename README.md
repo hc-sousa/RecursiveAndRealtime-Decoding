@@ -1,6 +1,7 @@
 # RecursiveAndRealtime-Decoding
 Recursively (and Realtime too) decoding a non-instantaneous binary code
 Henrique Sousa, NºMEC 98324, P4
+Grade : 20/20
 
 ESTE FICHEIRO PODE SER USADO CASO HAJAM DÚVIDAS SOBRE A INFORMAÇÃO QUE SE ENCONTRA NUM DETERMINADO FICHEIRO E/OU DIRETORIA
 
